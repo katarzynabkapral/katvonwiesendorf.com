@@ -1,0 +1,158 @@
+/*
+Theme Name: KVW simple
+Theme URI: katvonwiesendorf.wordpress.com
+Description: kat von wiesendorf photography simple theme 2016
+Version: 1.0
+Author: Kat Von Wiesendorf
+Author URI: katvonwiesendorf.wordpress.com
+*/
+
+
+ @import url(css/bootstrap.min.css);
+
+@import url(https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css);
+
+
+@import url(https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap-theme.min.css);
+
+
+@import url(https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js);
+
+
+  /* fonts */
+@import url(https://fonts.googleapis.com/css?family=Euphoria+Script|Homemade+Apple);
+@import url(https://fonts.googleapis.com/css?family=Fredericka+the+Great|Gruppo);
+
+
+
+
+
+
+
+@media screen and (max-width: 768px) {
+  
+    hr{visibility: hidden;}
+    footer {visibility: hidden;}
+.page-header p{visibility: hidden;
+width: 50%;}
+#sidebar h1 {padding-top: 20px; }
+    .img-circle {width:50% !important;padding-top: 55px;}
+    .screen-reader-text {margin-right:-90px;}
+}
+@media screen and (max-width: 600px) {
+.page-header p{visibility: hidden; font-size:5px;}
+    #sidebar h1 {padding-top: 20px; }
+.img-circle {width:50%!important ;padding-top: 55px;}
+.screen-reader-text {margin-right:-90px;}
+}
+@media screen and (min-width: 601px)and (max-width:992px) {
+.page-header p{visibility: hidden;}
+    #sidebar h1 {padding-top: 20px; }
+.img-circle {width:50%!important ;padding-top: 55px;}
+.screen-reader-text {margin-right:-90px;}
+}
+
+
+a {color:black !important; background-color:transparent !important; text-decoration:none  !important}
+a:link    {color:black !important; background-color:transparent !important; text-decoration:none  !important}
+a:visited {color:black !important; background-color:transparent  !important; text-decoration:none  !important}
+a:hover   {color: #38976d !important; background-color:transparent !important; text-decoration:none  !important;}
+a:active  {color: #38976d  !important; background-color:transparent !important; text-decoration:none  !important; }
+
+
+ body {font-family: 'Times New Roman', serif;
+ padding-top: 90px;}
+
+  .navbar-toggle { background-color: #38976d !important;  }
+       .icon-bar {background-color: white !important;}
+
+    .page-header {border-bottom: 0px;}
+    .page-header h1 {font-family: 'Euphoria Script';
+                  text-align: center;
+                  font-size: 95px;}
+    .page-header p { font-family: 'gruppo';
+                    text-align: center;
+                    font-size: 35px;
+                    padding-left: 30px;
+                    letter-spacing: 29px;
+                  }
+
+    .navbar {padding-top: 5px;
+      background-color: white}
+    .navbar-brand {font-family: 'Euphoria Script';
+    font-size: 25px;}
+    .navbar-right {padding-left: 30px;
+              border-top: 1px;
+              border-bottom: 0px;
+              padding-top: 0px;
+              padding-bottom: 0px;
+              font-family: 'gruppo';
+              font-size: 18px;
+              font-weight: 600;
+              word-spacing: 10px;
+              ;}
+   .dropdown-menu {font-size:19px;
+    font-weight:400;
+  box-shadow: none;}
+      
+      .footer h3 {font-size: 15px;}
+
+.img-circle {width:100%;height:100%;}
+
+       
+  
+    
+
+hr {
+  background: black; 
+  
+  width: 100%; 
+  height: 1px;
+  border: none; }
+
+
+
+
+
+::-webkit-scrollbar {
+    width: 12px;
+}
+ 
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); 
+    border-radius: 10px;
+}
+ 
+::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5); 
+}
+
+
+.post-single {padding-left: px;}
+.navigation {padding-left: 600px;}
+#sidebar h1 { text-align: center; font-family: 'Gruppo', cursive; font-size: 50px;}
+#blogi h2 { font-family: 'Gruppo' ; font-size:55px}
+
+
+#archivemain h1 {text-align:center; font-family: 'Gruppo', cursive; font-size: 50px;}
+#archivemain h2 {font-family: 'Gruppo', cursive; font-size: 40px;}
+#archiveside h1 {text-align: center; font-family: 'Gruppo', cursive; font-size: 50px;}
+.post-single h1 {font-family: 'Gruppo', cursive ; font-size: 60px; }
+.pagin1 {text-align: left; font-size: 22px; margin-bottom: -30px;}
+.pagin2 {text-align: right; font-size: 22px;}
+
+.aligncenter {text-align: center; font-size: 18px;}
+.footer {size: 12px}
+.archpost {padding-left: px;}
+.entry {  font-weight: 400; font-size: 18px;}
+.postmetadata {font-family: 'Homemade Apple';  }
+
+.tagcloud {font-family: 'Times New Roman'; }
+.entry-header h1 {font-family: 'Gruppo';}
+#respond {font-family: 'Homemade Apple';  }
+#comments {font-family: 'Homemade Apple';  }
+.central {text-align:center;}
+.screen-reader-text {visibility: hidden;}
+
+
